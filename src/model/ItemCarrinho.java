@@ -7,6 +7,12 @@ public class ItemCarrinho {
 	private String valor2;
 	private double desc;
 	private int qtd=1;
+	
+	
+	public ItemCarrinho(int codigo) {
+		super();
+		this.codigo = codigo;
+	}
 	public int getCodigo() {
 		return codigo;
 	}
